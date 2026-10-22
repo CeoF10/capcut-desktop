@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node / Dependencias
+node_modules/
+dist/
+dist-electron/
+release/
+
+# Archivos temporales de compilación y runtime
+.vite/
+.vite-temp/
+thumbnails/*
+!thumbnails/.gitkeep
+
+# Python / Entorno virtual
+__pycache__/
+*.py[cod]
+*$py.class
+python/venv/
+python/__pycache__/
+.pytest_cache/
+
+# Sistema y SO
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Exportaciones y medios temporales
+*.mp4
+*.mov
+*.wav
+*.ass
+*.png.tmp
+*.jpg.tmp
+
+# Variables de entorno locales
+.env
+.env.local
+.env.*.local
